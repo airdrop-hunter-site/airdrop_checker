@@ -51,16 +51,16 @@ for (const line of data) {
         zkSyncPepeAmountWallets++;
     }
 }
-
-responses.pilotDog.push({
-    totalTokens: pilotDogTotalAmount,
-    totalWallets: pilotDogAmountWallets
-});
-
-responses.moonsDust.push({
-    totalTokens: moonsDustTotalAmount,
-    totalWallets: moonsDustAmountWallets
-});
+//
+// responses.pilotDog.push({
+//     totalTokens: pilotDogTotalAmount,
+//     totalWallets: pilotDogAmountWallets
+// });
+//
+// responses.moonsDust.push({
+//     totalTokens: moonsDustTotalAmount,
+//     totalWallets: moonsDustAmountWallets
+// });
 
 responses.zkSyncPepe.push({
     totalTokens: zkSyncPepeTotalTotalAmount,
